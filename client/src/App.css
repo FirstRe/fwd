@@ -1,0 +1,235 @@
+/* #e87722  */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+.App {
+  text-align: center;
+}
+
+.registration, .login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+}
+.navs{
+  background-color: #ffffff;
+  
+  padding: 10px;
+  /* box-shadow: 0px 1px #000000; */
+  border-bottom: 1px solid rgb(49, 49, 49);
+  border-radius: 0px 0px 15px 15px; 
+}
+.navf{
+
+display: flex;
+}
+.nav-brand{
+  font-family: 'Krona One', sans-serif;
+  
+}
+
+.fml2{
+  position:absolute;
+  padding: 2px;
+  color: #e87722;
+  margin: -5px 0px 0px -10px;
+ 
+}
+
+
+@media screen and (min-width: 601px) {
+  .fml{
+    font-size: 32px;
+  }
+  .fml2 {
+    font-size: 32px;
+  }
+  .chat{
+    font-size: 32px;
+  }
+  .premium{
+    padding: 80px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .fml{
+    font-size: 18px;
+  }
+  .fml2 {
+    font-size: 18px;
+  }
+  .chat{
+    font-size: 18px;
+  }
+  .premium{
+    padding:60px;
+  }
+ 
+}
+
+.nav-chat{
+  margin-left: auto;
+}
+.chat{
+  color: #e87722;
+  vertical-align: middle;
+  margin-top: 2px;
+  
+  
+}
+.Main{
+  font-family: 'Kanit', sans-serif;
+  padding: 40px;
+  padding-bottom: 20px;
+}
+
+.form{
+  max-width: 800px;
+  display: block;
+  margin: auto;
+  padding: 40px;
+}
+
+.form-group{
+
+  display: block;
+  margin: auto;
+  
+}
+.select-gender{
+  text-align: center;
+  width: 100%;
+}
+
+.gender-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.icons{
+  font-size: 56px;
+}
+
+.gender-wrap{
+  
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  margin: 20px;
+  background-color: #7c7c7c;
+  padding: 50px;
+  color: #ffffff;
+  border-radius: 50%;
+  border: none;
+}
+
+.gender-wrap :hover{
+  cursor: pointer;
+}
+
+.date{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.select-date{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.select-premium{
+  text-align: center;
+  margin-top: 40px;
+  /* padding-bottom: 400px;  ลบ */
+  
+}
+.premium{
+  
+
+  color: #ffffff;
+  background-color: #707070;
+  border-radius: 50%;
+  display: block;
+   margin: auto;
+   border: none;
+   
+}
+.premium-price{
+  position: absolute;
+  text-align: center;
+  margin:-10px 0px 0 -33px;
+  
+  
+}
+.premium :hover{
+  cursor: pointer;
+}
+
+.select-premium-flex{
+  margin-top: 30px;
+}
+
+.select-frequency{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.frequency{
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.cbg{
+  background-color: #e87722;
+}
+
+.show-pre{
+  padding: 40px;
+  max-width: 300px;
+
+}
+
+.button-pre{
+  background-color: #e87722;
+  padding: 10px;
+  border-radius: 15px;
+  border:none;
+  border-color: #ffffff;
+  color: #ffffff;
+  margin:10px
+}
+
+.button-res{
+  margin-top: 40px;
+}
+
+.lastprice p{
+  font-size: 24px;
+}
+
+.lastprice span{
+  font-size: 32px;
+  color: #e87722;
+}
+.footer{
+  
+  padding: 50px;
+  background-color: #e87822b0;
+}
+
+.footer p{
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0 ;
+  font-family: 'Krona One', sans-serif;
+  font-size: 32px;
+}
