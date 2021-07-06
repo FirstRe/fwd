@@ -55,8 +55,7 @@ const Main = () => {
     
     const getProduct = () => {
         if(gender&&alldate2&&plan&&payment&&date&&month&&year){
-            setCalculated("non-cal");
-            setShowalert("");
+            setButtoncal("กำลังโหลด");
         Axios.post("http://localhost:3001/getProduct", {
           gender: gender,
           alldate: alldate2,
@@ -66,7 +65,14 @@ const Main = () => {
         }).then((response) => {
           console.log(response);
         });
-    }else{setShowalert("กรุณากรอกข้อมูลให้ครบ !");}
+        }else{
+            setShowalert("กรุณากรอกข้อมูลให้ครบ !");
+        }
+        setTimeout(() => {
+            setCalculated("non-cal");
+            setButtoncal("ยืนยันใหม่อีกครั้ง");
+            setShowalert("");
+        }, 2000);
       };
 
       const getProductData = () => {
